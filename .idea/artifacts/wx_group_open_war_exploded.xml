@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wx-group-open:war exploded">
+    <output-path>$PROJECT_DIR$/target/wx-group-open-0.0.1-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wx-group-open" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3" />
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal:1.8" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="wx-group-open/web/Web" />
+    </root>
+  </artifact>
+</component>
